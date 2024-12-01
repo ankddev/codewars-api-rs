@@ -1,10 +1,10 @@
 <h1 align="center">codewars-api-rs</h1>
 
-[![Crates.io](https://img.shields.io/crates/v/codewars-api)](https://crates.io/crates/codewars-api)
-[![Docs](https://docs.rs/codewars-api/badge.svg)](https://docs.rs/codewars-api/latest/codewars_api)
+<a href="https://crates.io/crates/codewars-api"><img src="https://img.shields.io/crates/v/codewars-api"/></a>
+<a href="https://docs.rs/codewars-api/latest/codewars_api"><img src="https://docs.rs/codewars-api/badge.svg"/></a>
 
 Full-featured crate to interact with Codewars API. Check [official documentation](https://dev.codewars.com/) for more information about API.
-> [!NOTE]  
+> [!NOTE]
 > At this moment, Codewars API is [minimal and inconsistent](https://dev.codewars.com/#introduction).
 > So, you can't to do some things with API and this crate
 
@@ -35,7 +35,7 @@ And you can use methods of client:
 let user = client.get_user("username").await.unwrap();
 let challenges = client.get_completed_challenges("username", 1).await.unwrap();
 ```
-> [!NOTE]  
+> [!NOTE]
 > If you want to use it in `main` function you should install `tokio`
 > ```shell
 > $ cargo add tokio
@@ -44,7 +44,7 @@ let challenges = client.get_completed_challenges("username", 1).await.unwrap();
 > ```rust
 > use tokio;
 > use codewars_api::rest_api::client::RestCodewarsClient;
-> 
+>
 > #[tokio::main]
 > async fn main() {
 >     let client = RestCodewarsClient::new();
