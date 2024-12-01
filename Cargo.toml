@@ -1,0 +1,18 @@
+[package]
+name = "codewars-api"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+description = "A library for interacting with the Codewars API"
+repository = "https://github.com/ankddev/codewars-api-rs"
+readme = "README.md"
+
+[dependencies]
+reqwest = { version = "0.12.8", features = ["json"] }
+serde = { version = "1.0.213", features = ["derive"] }
+serde_json = "1.0.132"
+strum = { version = "0.26.3", features = ["derive"] }
+mockito = "1.5.0"
+
+[dev-dependencies]
+tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
