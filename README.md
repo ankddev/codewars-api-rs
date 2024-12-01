@@ -1,7 +1,8 @@
 <h1 align="center">codewars-api-rs</h1>
-
-<a href="https://crates.io/crates/codewars-api"><img src="https://img.shields.io/crates/v/codewars-api"/></a>
-<a href="https://docs.rs/codewars-api/latest/codewars_api"><img src="https://docs.rs/codewars-api/badge.svg"/></a>
+<div align="center">
+    <a href="https://crates.io/crates/codewars-api"><img src="https://img.shields.io/crates/v/codewars-api"/></a>
+    <a href="https://docs.rs/codewars-api/latest/codewars_api"><img src="https://docs.rs/codewars-api/badge.svg"/></a>
+</div>
 
 Full-featured crate to interact with Codewars API. Check [official documentation](https://dev.codewars.com/) for more information about API.
 > [!NOTE]
