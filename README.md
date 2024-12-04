@@ -57,7 +57,7 @@ let challenges = client.get_completed_challenges("username", 1).await.unwrap();
 > }
 > ```
 # Documentation
-Documentation for this crate can be found at [crates.io](https://crates.io/crates/codewars-api/latest/codewars_api)
+Documentation for this crate can be found at [docs.rs](https://docs.rs/codewars-api/latest/codewars_api)
 Also, you can see examples of using this crate in [examples](./examples). To run example clone this repo and run this:
 ```shell
 $ cargo run --example <example_name>
