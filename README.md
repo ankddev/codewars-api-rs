@@ -67,7 +67,7 @@ For example:
 $ cargo run --example print_name
 ```
 # Contributing
-Firstly, you should install [Git](https://git-scm.com/download) [Rust](https://www.rust-lang.org/tools/install) and [Cargo](https://doc.rust-lang.org/cargo/getting-started/installing.html).
+Firstly, you should install [Git](https://git-scm.com/download) and [Rust](https://www.rust-lang.org/tools/install).
 * Create fork of this repo by pressing button on the top of this page.
 * Clone your fork
 ```shell
