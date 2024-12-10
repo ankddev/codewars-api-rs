@@ -39,7 +39,7 @@ And you can use methods of client:
 let user = client.get_user("username").await.unwrap();
 let challenges = client.get_completed_challenges("username", 1).await.unwrap();
 ```
-> [!NOTE]
+> [!TIP]
 > If you want to use it in `main` function you should install `tokio`
 > ```shell
 > $ cargo add tokio
