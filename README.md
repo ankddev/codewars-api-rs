@@ -66,6 +66,11 @@ For example:
 ```shell
 $ cargo run --example print_name
 ```
+# See Also
+- [conemu-progressbar-go](https://github.com/ankddev/conemu-progressbar-go) - Progress bar for ConEmu for Go
+- [envfetch](https://github.com/ankddev/envfetch) - Lightweight crossplatform CLI tool for working with environment variables
+- [terminal-go](https://github.com/ankddev/terminal-go) - Go library for working with ANSI/VT terminal sequences
+- [zapret-discord-youtube](https://github.com/ankddev/zapret-discord-youtube) - Zapret build for Windows for fixing Discord and YouTube in Russia or othher services
 # Contributing
 Firstly, you should install [Git](https://git-scm.com/download) and [Rust](https://www.rust-lang.org/tools/install).
 * Create fork of this repo by pressing button on the top of this page.
